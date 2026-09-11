@@ -84,7 +84,7 @@ Espacio presencial de 1 hora estructurado bajo la metodología SOLE (*Self Organ
 
 **Dataset sintético:** Los estudiantes deben construir un dataset de minimo 5 columnas y 100 datos en cada columna.
 
-**Códigos de sorting:** Realizar códigos de sorting (organización) listas en Python para poner a prueba con el dataset. **Linear Search -> Quick Sort** en la sección Python DSA en [W3schools] (https://www.w3schools.com/python/python_dsa.asp)
+**Códigos de sorting:** Realizar códigos de searching y sorting (organización) listas en Python para poner a prueba con el dataset. **Linear Search -> Quick Sort** en la sección Python DSA en [W3schools] (https://www.w3schools.com/python/python_dsa.asp)
 
 
-**Documento:** Realizar un documento con el análisis de los diferentes métodos de sorting. Importante incluir el análisis del la cantidad de operaciones y el time complexities cada caso.
+**Documento:** Realizar un documento en latex con el análisis de los diferentes métodos de searching y sorting. Importante incluir el análisis del la cantidad de operaciones y el time complexities cada caso.
