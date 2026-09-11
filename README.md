@@ -79,3 +79,11 @@ Espacio presencial de 1 hora estructurado bajo la metodología SOLE (*Self Organ
 > **Alineación curricular:** Esta actividad articula el requisito de lectura en inglés, el uso de entornos en la nube (Colab y GitHub) y el desarrollo de competencias de pensamiento computacional para la resolución reproducible de problemas físicos.
 > 
 >
+
+# Listas en Python: Sorting
+
+**Dataset sintético:** Los estudiantes deben construir un dataset de minimo 5 columnas y 100 datos en cada columna.
+
+**Códigos de sorting:** Realizar códigos de sorting (organización) listas en Python para poner a prueba con el dataset. **Linear Search -> Quick Sort** en la sección Python DSA en [W3schools:] (https://www.w3schools.com/python/python_dsa_selectionsort.asp)
+
+**Documento:** Realizar un documento con el análisis de los diferentes métodos de sorting. Importante incluir el análisis del la cantidad de operaciones y el time complexities cada caso.
