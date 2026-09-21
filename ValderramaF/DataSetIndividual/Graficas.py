@@ -274,3 +274,4 @@ plt.savefig("graficas_3D.png", dpi=150)
 plt.close(fig)
 
 print("Listo: se generaron 4 archivos PNG con las gráficas solicitadas.")
+#Codigo de todas las gráficas
