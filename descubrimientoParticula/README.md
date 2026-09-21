@@ -6,10 +6,11 @@ Plan de trabajo y tareas del equipo para el desarrollo del proyecto.
 
 | Nombre | Rol |
 |---|---|
-| _Nombre 1_ | Coordinador/a |
-| _Nombre 2_ | Simulación numérica |
-| _Nombre 3_ | Análisis de datos |
-| _Nombre 4_ | Manuscrito |
+|Valderrama| Coordinador |
+|Jhon Yepes| Simulación numérica |
+|Abiud Villamizar | Análisis de datos |
+|Rafael Lemus | Manuscrito |
+|Juan Velazques|Con salud gracias a Dios|
 
 ## Estructura del repositorio
 
