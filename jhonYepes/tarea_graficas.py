@@ -50,3 +50,4 @@ ax4.set_zlabel('Watchers')
 # Ajustamos los márgenes y mostramos la ventana en pantalla
 plt.tight_layout()
 plt.show()
+#cambio
