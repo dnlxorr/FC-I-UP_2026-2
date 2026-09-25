@@ -3,11 +3,15 @@
 # ==========================================
 import math
 
+#g = representa la gravedad de la tierra
+#t = representa el tiempo transcurrido en segundos
+#v0 = representa la veocidad inicial del proyectil
+#theta_rad = representa la conversion del angulo en radianes que ingresa el usuario en grados
 
 def calcular_posicion(t, v0, theta_rad):
-    g = 9.81
-    x = v0 * math.cos(theta_rad) * t
-    y = v0 * math.sin(theta_rad) * t - 0.5 * g * t ** 2
+    g = 9.81   #gravedad
+    x = v0 * math.cos(theta_rad) * t   #posicion horizontal
+    y = v0 * math.sin(theta_rad) * t - 0.5 * g * t ** 2  #posicion de altura
     return x, y
 
 
