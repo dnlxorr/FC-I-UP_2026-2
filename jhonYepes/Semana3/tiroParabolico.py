@@ -17,8 +17,13 @@ def calcular_posicion(t, v0, theta_rad):
 
 def simular_tiro():
     print("--- Simulación de Tiro Parabólico ---")
-    v0 = float(input("Ingrese la velocidad inicial (m/s): "))
-    theta_grados = float(input("Ingrese el ángulo de lanzamiento (grados, 0-90): "))
+
+    try:
+        v0 = float(input("Ingrese la velocidad inicial (m/s): "))
+        theta_grados = float(input("Ingrese el ángulo de lanzamiento (grados, 0-90): "))
+    except ValueError:
+        print("Error crítico: Por favor, ingrese solo valores numéricos, no letras.")
+        return
 
     if v0 <= 0 or theta_grados < 0 or theta_grados > 90:
         print("Error: Velocidad debe ser > 0 y el ángulo entre 0 y 90 grados.")
