@@ -10,7 +10,7 @@
       <excludeFolder url="file://$MODULE_DIR$/ValderramaF/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/ValderramaF/DataSet/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="~\PycharmProjects\FC-I-UP_2026-2\ValderramaF\.venv" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.12" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
