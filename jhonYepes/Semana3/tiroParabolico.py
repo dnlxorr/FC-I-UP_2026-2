@@ -3,18 +3,27 @@
 # ==========================================
 import math
 
+#g = representa la gravedad de la tierra
+#t = representa el tiempo transcurrido en segundos
+#v0 = representa la veocidad inicial del proyectil
+#theta_rad = representa la conversion del angulo en radianes que ingresa el usuario en grados
 
 def calcular_posicion(t, v0, theta_rad):
-    g = 9.81
-    x = v0 * math.cos(theta_rad) * t
-    y = v0 * math.sin(theta_rad) * t - 0.5 * g * t ** 2
+    g = 9.81   #gravedad
+    x = v0 * math.cos(theta_rad) * t   #posicion horizontal
+    y = v0 * math.sin(theta_rad) * t - 0.5 * g * t ** 2  #posicion de altura
     return x, y
 
 
 def simular_tiro():
     print("--- Simulación de Tiro Parabólico ---")
-    v0 = float(input("Ingrese la velocidad inicial (m/s): "))
-    theta_grados = float(input("Ingrese el ángulo de lanzamiento (grados, 0-90): "))
+
+    try:
+        v0 = float(input("Ingrese la velocidad inicial (m/s): "))
+        theta_grados = float(input("Ingrese el ángulo de lanzamiento (grados, 0-90): "))
+    except ValueError:
+        print("Error crítico: Por favor, ingrese solo valores numéricos, no letras.")
+        return
 
     if v0 <= 0 or theta_grados < 0 or theta_grados > 90:
         print("Error: Velocidad debe ser > 0 y el ángulo entre 0 y 90 grados.")
