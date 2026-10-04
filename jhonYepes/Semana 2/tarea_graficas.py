@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1. Carga de datos y asignación de variables
-# Asegúrate de que el archivo CSV se llame exactamente así y esté en tu carpeta
-df = pd.read_csv('Heterogeneous_Data .csv', low_memory=False)
+
+df = pd.read_csv('../Heterogeneous_Data .csv', low_memory=False)
 
 # 2. Limpieza de datos
 # Descartamos valores vacíos y tomamos una muestra de 500 para que la PC no sufra renderizando
@@ -50,3 +50,4 @@ ax4.set_zlabel('Watchers')
 # Ajustamos los márgenes y mostramos la ventana en pantalla
 plt.tight_layout()
 plt.show()
+#cambio

@@ -189,3 +189,22 @@ Sin importar el tema asignado, la solución de cada estudiante debe estructurars
 | **Lazos Iterativos (`for`)** | Implementación adecuada del ciclo de tiempo y cálculo correcto en cada paso. | 20% |
 | **Modularidad (Funciones)** | Creación de funciones reutilizables con parámetros claros y retorno adecuado de valores. | 15% |
 | **Documentación y Limpieza** | Uso de comentarios claros, nombres de variables representativos y formato ordenado. | 10% |
+
+## Semana 4
+# Guía de Actividad: Clases abstractas, errores computacionales y series de Taylor
+**Tema:** Creación de clases abstractas, implementaciones generales para hacer los códigos mas robustos. Comprensión de los errores computaciones, su origen y su efectos en los resultados de cálculos computacionales. Series de Taylor.
+**Modalidad:** Trabajo Individual / Asignación de Proyectos Físicos  
+
+## Actividad
+## 1
+Cada estudiante deberá investigar por su cuenta los tipos de errores computacionales y comprender su origen y efecto en los resultados de cálculos numéricos. Es necesario traer un código en Python donde se evidencian los errores por truncamiento y por redondeo.
+
+## 2
+Investigar acerca de las clases abstractas en Python y sus fortalezas. Traer un código con una clase abstracta FiguraGeometrica de la cual extiendan varias clases (Cuadrado, Triangulo, Circulo, etc) La clase abstracta debe tener una función calcularArea. Dicha función deberá ser implementada dentro de otra función que reciba objetos FiguraGeometrica y devolver el área de cualquier tipo de figura.
+
+## 3
+Implementar dos o mas funciones trascendentales en series de Taylor y comprar su resultado con los resultados entregados por las funciones incorporadas en la librería Math de Python.
+
+## 4
+Analizar los resultados, ventajas y desventajas de las actividades anteriores mediante gráficos y cálculo numérico. De sus conclusiones y observaciones.
+
